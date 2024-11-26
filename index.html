@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Masud Rana">
+    <meta name="description" content="Creating a retro forum website">
+    <meta name="keywords" content="post, music, coding, comedy">
+    <title>Retro Forum</title>
+    <script src="https://kit.fontawesome.com/f91fd0dd4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <!-- navigation -->
+        <nav class="nav">
+            <h3 class="nav__title"><a href="">ReTro</a></h3>
+            <div class="nav__container">
+                <ul class="nav__links--container">
+                    <li><a title="Home" href=""><img src="icons/home.svg" alt="Home"></a></li>
+                    <li><a title="Edit" href=""><img src="icons/pencil.svg" alt="Edit"></a></li>
+                    <li><a title="Profile" href=""><img src="icons/person.svg" alt="Profile"></a></li>
+                    <li><a title="Posts" href=""><img src="icons/flag.svg" alt="Posts"></a></li>
+                </ul>
+                <button class="nav__button">Sign In</button>
+            </div>
+        </nav>
+
+        <!-- banner -->
+        <section class="banner">
+            <div>
+                <h1 class="banner__title">Welcome to the <br> <span class="violet">ReTro</span> Forum</h1>
+                <p class="banner__description description">Share your favorite opinion and win and wp <br> forum coffee
+                    mug!</p>
+                <div class="banner__search--field">
+                    <input class="banner__input" type="search" name="search" id="search-field"
+                        placeholder="Search here anything">
+                    <button onclick="handleSearch()" class="banner__button">Search</button>
+                </div>
+            </div>
+            <div class="banner__card">
+                <div>
+                    <p>Registered Users</p>
+                    <p>01</p>
+                </div>
+                <div>
+                    <p>Forum</p>
+                    <p>01</p>
+                </div>
+                <div>
+                    <p>Topics</p>
+                    <p>01</p>
+                </div>
+                <div>
+                    <p>Replies</p>
+                    <p>01</p>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <!-- lets discuss -->
+        <section class="discuss">
+            <h2 class="section__title">Let's Discuss</h2>
+            <p class="section__description">
+                Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing
+                features allow for a streamlined .
+            </p>
+            <div class="posts-marks-container">
+                <div id="posts-container" class="posts-container">
+
+                </div>
+                <div id="marks-container" class="marks-container">
+                    <div class="marks__title__check">
+                        <h3 class="mark__title">Title</h3>
+                        <div class="check__count">
+                            <div>
+                                <img src="icons/check.svg" alt="Check Mark">
+                            </div>
+                            <p class="mark__read">Mark as read (<span id="read__count">0</span>)</p>
+                        </div>
+                    </div>
+                    <div id="marks-card-container">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- forum -->
+        <section class="forum">
+            <h2 class="forum__title">Join Our Forum</h2>
+            <p class="forum__description">
+                Share your favorite opinion and win and wp forum coffee mug! Yes, you can <br> run unit tests and view
+                the results directly within the app.
+            </p>
+            <button class="forum__button">Registered Now</button>
+        </section>
+
+        <!-- latest posts -->
+        <section class="latest__posts">
+            <h2 class="latest__posts--title section__title">Latest Posts</h2>
+            <p class="latest__posts--description section__description">
+                Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing
+                features allow for a streamlined .
+            </p>
+            <div id="latest__posts--container" class="latest__posts--container">
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="section__title">Retro</h2>
+        <p class="section__description">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a <br> piece of classical
+            Latin literature from 45 BC
+        </p>
+        <div class="social-links">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <hr>
+        <p class="rights">2017, All Rights Reserved.</p>
+    </footer>
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
